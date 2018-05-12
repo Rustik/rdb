@@ -16,7 +16,7 @@ Please note, this gem is not purposed for production use, the only reason I've w
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rdb'
+gem 'rudb'
 ```
 
 And then execute:
@@ -25,14 +25,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rdb
+    $ gem install rudb
 
 ## Usage
 
 ```
 
-require_relative 'rdb'
-require_relative 'rdb/orm'
+require 'rdb'
+require 'rdb/orm'
 
 class Plane
   include Rdb::Orm
