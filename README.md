@@ -6,7 +6,7 @@ It's bundled with the `ORM mapper` which behaves like a Rails `find_by` and `sav
 Please note, this gem is not purposed for production use, the only reason I've written it is to demonstrate how to write your own database, and use it with your own data mapper, like `ActiveRecord`.
 
 
-##Features
+### Features
 
 - Create Btree of arbitrary degree (4 by default)
 - Insert and search by object attributes, like Rails framework does
